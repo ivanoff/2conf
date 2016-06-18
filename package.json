@@ -1,0 +1,29 @@
+{
+  "name": "2conf",
+  "version": "1.0.0",
+  "description": "Config",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "should": "^9.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivanoff/2conf"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "Config"
+  ],
+  "author": {
+    "name": "Dimitry Ivanov",
+    "email": "2@ivanoff.org.ua"
+    "cv": "curl -A cv ivanoff.org.ua",
+  }
+}
