@@ -14,18 +14,8 @@ describe('config module checking', function() {
     });
 
     it('ports config', function(done) {
-      config.should.have.property('PORTS');
-      config.PORTS.should.have.property('login');
-      expect(config.PORTS.login).to.be.above(0);
-      done();
-    });
-
-    it('login config', function(done) {
-      config.should.have.property('login');
-      config.login.should.have.property('TOKEN');
-      config.login.TOKEN.should.have.property('secret');
-      config.login.TOKEN.should.have.property('expire');
-      expect(config.login.TOKEN.expire).to.be.above(0);
+      config.should.have.property('port');
+      expect(config.port).to.be.above(0);
       done();
     });
 
@@ -45,18 +35,8 @@ describe('config module checking', function() {
     });
 
     it('ports config', function(done) {
-      config.should.have.property('PORTS');
-      config.PORTS.should.have.property('login');
-      expect(config.PORTS.login).to.be.above(0);
-      done();
-    });
-
-    it('login config', function(done) {
-      config.should.have.property('login');
-      config.login.should.have.property('TOKEN');
-      config.login.TOKEN.should.have.property('secret');
-      config.login.TOKEN.should.have.property('expire');
-      expect(config.login.TOKEN.expire).to.be.above(0);
+      config.should.have.property('port');
+      expect(config.port).to.be.above(0);
       done();
     });
 
