@@ -6,6 +6,7 @@
 **What Was Done:**
 
 - fs dependency was removed. @pdehaan, thank you! )
+- fixing links to branches in changelog
 
 ## [1.0.1](https://github.com/ivanoff/2conf/tree/1.0.1) (2016-06-22)
 [Full Changelog](/compare/1.0.0...1.0.1)
