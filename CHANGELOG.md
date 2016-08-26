@@ -1,5 +1,12 @@
 # 2conf changelog
 
+## [1.0.2](link/1.0.2) (2016-08-26)
+[Full Changelog](/compare/1.0.1...1.0.2)
+
+**What Was Done:**
+
+- fs dependency was removed. @pdehaan, thank you! )
+
 ## [1.0.1](link/1.0.1) (2016-06-22)
 [Full Changelog](/compare/1.0.0...1.0.1)
 
